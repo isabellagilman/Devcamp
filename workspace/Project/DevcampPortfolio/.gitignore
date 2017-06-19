@@ -17,4 +17,4 @@
 .byebug_history
 
 # I don't want to show my secrets
-/workspace/trashpanda002/Project/DevcampPortfolio/config/secrets.yml
+/secrets.yml
