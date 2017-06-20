@@ -17,5 +17,6 @@ end
 ### Code Example
 
 ```javascript
-alert('Hi there')
+alert('Hi there') lfasdjlskfjl
+
 ```
