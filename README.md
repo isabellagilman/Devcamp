@@ -17,6 +17,6 @@ end
 ### Code Example
 
 ```javascript
-alert('Hi there')
+alert('Hi there')Controller-generator
 ```
 WHY WON'T GIT PUSH
