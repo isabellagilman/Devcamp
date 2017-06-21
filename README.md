@@ -17,7 +17,7 @@ end
 ### Code Example
 
 ```javascript
+<<<<<<< HEAD
 alert('Hi there') lfasdjlskfjl
 ldjLJlkjhhhlee
 
-```

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'pages/home'
-      @posts = Blog.all
+
   get 'pages/about'
 
   get 'pages/contact'
