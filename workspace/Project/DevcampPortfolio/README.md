@@ -17,5 +17,8 @@ end
 ### Code Example
 
 ```javascript
-alert('Hi there')
-```
+<<<<<<< HEAD
+alert('Hi there') lfasdjlskfjl
+ldjLJlkjhhhlee
+This time it will work maybe
+
