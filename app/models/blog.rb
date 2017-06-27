@@ -1,2 +1,2 @@
-class Blog < ApplicationRecord
+class portfolio_item < ApplicationRecord
 end

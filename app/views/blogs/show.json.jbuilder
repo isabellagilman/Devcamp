@@ -1,1 +1,1 @@
-json.partial! "blogs/blog", blog: @blog
+json.partial! "portfolio_items/portfolio_item", portfolio_item: @portfolio_item

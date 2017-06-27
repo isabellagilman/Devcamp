@@ -3,7 +3,7 @@
 ### Features
 
 -Real time chat engine for comments
--Blog
+-portfolio_item
 -Portfolio
 -Drag and drop interface
 
