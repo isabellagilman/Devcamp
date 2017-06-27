@@ -1,1 +1,1 @@
-json.array! @portfolio_items, partial: 'portfolio_items/portfolio_item', as: :portfolio_item
+json.array! @blogs, partial: 'blogs/blog', as: :blog

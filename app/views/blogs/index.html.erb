@@ -1,24 +1,24 @@
 <p id="notice"><%= notice %></p>
 
-<h1>portfolio_items and Stuff</h1>
+<h1>Blogs and Stuff</h1>
 
 <table>
   <thead>
     <tr>
-      <th>portfolio_item Title</th>
+      <th>Blog Title</th>
       <th>Body</th>
       <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
-    <% @portfolio_items.each do |portfolio_item| %>
+    <% @blogs.each do |blog| %>
       <tr>
-        <td><%= portfolio_item.title %></td>
-        <td><%= portfolio_item.body %></td>
-        <td><%= link_to 'View', portfolio_item %></td>
-        <td><%= link_to 'Edit', edit_portfolio_item_path(portfolio_item) %></td>
-        <td><%= link_to 'Delete', portfolio_item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= blog.title %></td>
+        <td><%= blog.body %></td>
+        <td><%= link_to 'View', blog %></td>
+        <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
+        <td><%= link_to 'Delete', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New', new_portfolio_item_path %>
+<%= link_to 'New', new_blog_path %>

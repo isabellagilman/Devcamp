@@ -1,6 +1,6 @@
-class Createportfolio_items < ActiveRecord::Migration[5.0]
+class CreateBlogs < ActiveRecord::Migration[5.0]
   def change
-    create_table :portfolio_items do |t|
+    create_table :blogs do |t|
       t.string :title
       t.text :body
 
