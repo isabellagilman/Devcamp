@@ -19,8 +19,4 @@ end
 ```javascript
 <<<<<<< HEAD
 alert('Hi there') lfasdjlskfjl
-ldjLJlkjhhhlee
-This time it will work maybe
-asdfkasldkf
-trial
-
+Testing[]
