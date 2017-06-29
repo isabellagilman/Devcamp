@@ -4,3 +4,27 @@ Skill.create!(title: "Rails", percent_utilized: 75)
 Skill.create!(title: "HTML", percent_utilized: 5)
 Skill.create!(title: "Angular", percent_utilized: 10)
 Skill.all
+Blog.create!(title: 'I hate github', body: 'so many errors')
+10.times do |blog|
+puts blog
+end
+Blog.count
+Skill.count
+Portfolio.count
+Portfolio.last
+Portfolio.find(5)
+portfolio = Portfolio.last
+Blog.create!(title: "my great title", body: "asdfasd")
+Blog.first
+Blog.create! (title: "Meeeeeeh", body: "Moooooooooooooooooooop")
+Blog.create!(title: "Meeeeeeh", body: "Moooooooooooooooooooop")
+Blog.create!(title: "Testing", body: "Work Pls")
+Blog.last.published!
+Blog.last
+Blog.first.published!
+Blog.published.count
+Blog.published
+Blog.all
+Blog.last.draft?
+Blog.last.published?
+exit

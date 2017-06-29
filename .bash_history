@@ -135,3 +135,176 @@ git branch checkout -b 'master'
 git branch
 git branch master
 exit
+rails s -b $IP -p $PORT
+clear
+cd GeneratorApp
+rails s -b $IP -p $PORT
+db: migrate
+rails db: migrate
+rails s -b $IP -p $PORT
+rails db:migrate
+rails s -b $IP -p $PORT
+rails db:create
+rails db:migrate
+cd ..
+cd Project
+rails s -b $IP -p $PORT
+cd ..
+cd MyApp
+rails s -b $IP -p $PORT
+clear
+cd ..
+cd GeneratorApp
+rails db:create
+sudo service postgresql start
+rails db:migrate
+rails s -b $IP -p $PORT
+rails g scaffold attempt title:string description:text
+rails db:migrate
+rails s -b $IP -p $PORT
+git status
+git add .
+git status
+git add .
+git status
+cd ..
+git add .
+git status
+cd ..
+git add .
+git status
+git commit -m 'Capitalization Matters'
+git status
+git push
+git pull
+git status
+git push
+git status
+git merge
+git log
+git status
+git push
+git remove .
+clear
+git pull
+git push
+git checkout controller-generator2
+git status
+git checkout master
+git add .ssh/authorized_keys
+git checkout master
+git push
+git stasus
+git status
+git rm. -r --cached
+git rm . -r --cached
+git status
+git add .
+git commit -m 'Finishing section one'
+git push
+git status
+git add .
+git commit -m 'Finishing section one'
+git add .
+git status
+git push
+git commit 'Finishing section one'
+git commit -m 'Finishing section one'
+git push
+ls
+cd workspace
+ls
+cd project
+cd Project
+cd DevcampPortfolio
+git status
+git add .
+git commit -m 'Finishing section one'
+git push
+git push origin master
+rails db:migrate
+sudo chmod 600 ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa.pub
+sudo chmod 600 ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa.pub
+sudo chmod 644 ~/.ssh/known_hosts
+sudo chmod 755 ~/.ssh
+git push 
+git pull
+git push
+git status
+git add .
+git commit -m 'Modified readMe file'
+git push
+cd ..
+git checkout -b 'portfolio_feature'
+rails c
+rails c -b $IP -p $PORT
+sudo service postgresql start
+rails c
+rails db:migrate
+rails s -b $IP -p $PORT
+cd DevcampPortfolio
+rails c
+rails db:setup
+rails c
+rails s -b $IP -p $PORT
+git status
+git add .
+git commit -m 'created seeds file for sample data'
+git push
+rails s -b $IP -p $PORT
+clear
+git checkout portfolio_feature
+git checkout -b 'portfolio_feature'
+rails c
+rails s -b $IP -p $PORT
+git status
+git add .
+git commit -m 'Integrated index action for portfolio items'
+git push origin portfolio-feature
+git push origin portfolio_feature
+rake routes
+rake routes | grep portfolio
+clear
+rails s -b $IP -p $PORT
+rake routes
+rails s -b $IP -p $PORT
+git status
+git add .
+git commit -m 'Integrated new adn create actions for portfolios'
+git push origin portfolio-feature
+git push origin portfolio_feature
+clear
+git status
+git commit -m 'Fixing errors'
+git status
+git add .
+git commit -m 'Fixing errors'
+git push origin portfolio_feature
+rake routes
+rails c
+rails s -b $IP -p $PORT
+rails db:migrate
+rails s -b $IP -p $PORT
+rails db:setup
+rails s -b $IP -p $PORT
+rails db:setup
+rails s -b $IP -p $PORT
+git add .
+git commit -m 'Implemented edit and update functionality'
+git push origin portfolio_feature
+rake routes | grep portfolio
+rails s -b $IP -p $PORT
+git status
+git add .
+git commit -m 'Added new and edit buttons for portfolio items'
+git push origin portfolio_feature
+clear
+rails s -b $IP -p $PORT
+git status
+git add .
+git commit -m 'Implemented show functionality for portfolio module'
+git push origin portfolio_feature
+clear
+rails c
