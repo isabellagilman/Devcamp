@@ -19,4 +19,4 @@ end
 ```javascript
 <<<<<<< HEAD
 alert('Hi there') lfasdjlskfjl
-New branch, master2
+New branch, new-master
