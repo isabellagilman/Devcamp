@@ -11,7 +11,6 @@ end
 Blog.count
 Skill.count
 Portfolio.count
-Portfolio.last
 Portfolio.find(5)
 portfolio = Portfolio.last
 Blog.create!(title: "my great title", body: "asdfasd")
@@ -27,4 +26,29 @@ Blog.published
 Blog.all
 Blog.last.draft?
 Blog.last.published?
+Topic.create!(title: "Ruby Programming")
+Topic.create!(title: "Software Engineering")
+topic.all
+Blog.create!(title: "Some cool ruby stuff", body: 'adfsdfd', topic_id: Topic.first.id)
+t = Topic.first
+t.blogs
+Blog.last.topic
+Blog.create()
+Blog.last.delete
+Portfolio.first.subtitle
+Portfolio.last.subtitle
+Portfolio.where(subtitle: "Ruby on Rails")
+Portfolio.where(subtitle: "Ruby on Rails").count
+Skill.create!(title: “Some Skill”, percent_utilized: 80)
+Skill.create!(title: "Some Skill", percent_utilized: 80, badge: "http://placehold.it/350x200")
+Skill.create!(title: "Some Skill", percent_utilized: 80)
+Technology.create!(name: "Rails", portfolio_id: Portfolio.last.id)
+Technology.last.portfolio
+Portfolio.last.technologies
+Portfolio.last
+p = Portfolio.last
+p.technologies.create!(name: "Ruby")
+p.technologies
+Portfolio.create!(title: "Web app", subtitle: "asdfasd", body: "asdfadf", technologies_attributes: [{name: 'Ruby'}, {name: 'Rails'}, {name: 'Angular'}, {name: 'Ionic'}])
+Portfolio.last.technologies.count
 exit
