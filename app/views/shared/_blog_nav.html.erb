@@ -1,11 +1,7 @@
 <div class="blog-masthead">
   <div class="container">
     <nav class="blog-nav">
-      <%= link_to "Home", root_path, class: 'blog-nav-item' %>
-      <%= link_to "About Me", about_me_path, class: 'blog-nav-item' %>
-      <%= link_to "Contact", contact_path, class: 'blog-nav-item' %>
-      <%= link_to "Blog", blogs_path, class: 'blog-nav-item' %>
-      <%= link_to "Portfolio", portfolios_path, class: 'blog-nav-item' %>
+      <%= nav_helper 'blog-nav-item', 'span' %>
       <%= login_helper 'blog-nav-item' %>
     </nav>
   </div>
